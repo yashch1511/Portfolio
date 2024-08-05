@@ -1,8 +1,17 @@
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import React from "react";
+import {useNavigate} from "react-router-dom"
+
 
 function About() {
+
+  const navigate=useNavigate();
+
+  function handlehaha(){
+    navigate("/Contact")
+
+  }
   return (
     <div>
       <Navbar />
