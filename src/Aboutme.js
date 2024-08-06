@@ -27,7 +27,7 @@ function About() {
             it's through coursework, personal projects, or collaboration with
             others.
           </p>
-          <button className="Contactis">Contact Me</button>
+          <button onClick={handlehaha} className="Contactis">Contact Me</button>
         </div>
         <img className="pfp" src="/final.jpeg" />
 
